@@ -21,6 +21,8 @@ b.	A text file CSE508_Winter2023_A2_<Group_No.>.txt consisting of the link to yo
 
 
 
+
+
 Q1. Data Preprocessing, Scoring and Term-Weighting[40 marks]
 Dataset Link: Dataset [1400 files]
 NOTE: Preprocessing is a must in this question, and is same as did in the last assignment-
@@ -62,6 +64,9 @@ Jaccard Coefficient [15 marks]
 The objective is to determine the Jaccard coefficient between a specified query and document, where the formula is provided as follows:
 Jaccard Coefficient = Intersection of (doc,query) / Union of (doc,query).
 A higher Jaccard coefficient value indicates greater relevance of the document to the query. To accomplish this, after preprocessing on the given dataset, create sets of the document and query tokens, and compute the intersection and union for each document and the query. Finally, present the top 10 documents ranked by Jaccard coefficient value.
+
+
+
 
 
 
@@ -111,6 +116,9 @@ Grading Rubric:
 ●	Conclusion (3 points) Note:
 ●	Please make sure to cite any sources used in your code or report properly.
 ●	Your code should be well-documented and easily readable. ●	Your report should be well-written and well-structured.
+
+
+
 
 
 
